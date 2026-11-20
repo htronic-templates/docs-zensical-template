@@ -8,13 +8,8 @@ In order to install everything needed to build / test the docs.
 pip install tox
 # Generate the virtual python env
 cd virtenv
-tox
-```
-
-To acivate the env witihn the virtenv directory
-```sh
-# Under windows power shell
-.\activate.ps1
-# Under Linux
-./activate.sh
+# For Windows
+./setup_venv.ps1
+# For Linux
+./setup_venv.sh
 ```

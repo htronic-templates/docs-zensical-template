@@ -9,7 +9,7 @@ fi
 
 if [ ! -d "./$venv" ]; then
   echo "Creating virtual environment $venv"
-  tox -c tox_dev.ini
+  python -m tox -- serve
   source $venv/bin/activate
 fi
 

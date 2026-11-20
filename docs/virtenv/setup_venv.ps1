@@ -2,7 +2,7 @@ $venv= ".tox/py"
 
 if (-Not (Test-Path -Path $venv)) {
     "Creating virtual environment $venv"
-    tox
+    python -m tox -- serve
 }
 "Entering virtual environment %venv%"
 "use deactivate to leave"
