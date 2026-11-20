@@ -113,3 +113,16 @@ pymdownx.tabbed.alternate_style = true
 pymdownx.tabbed.combine_header_slug = true
 pymdownx.tasklist.custom_checkbox = true
 pymdownx.tilde = {}
+
+# Plugins
+[project.plugins.awesome-nav]
+enabled = true
+
+[project.plugins.glightbox]
+enabled = true
+
+[project.plugins.mkdocs-video]
+enabled = true
+
+#[project.plugins.git-revision-date-localized]
+#enabled = true
