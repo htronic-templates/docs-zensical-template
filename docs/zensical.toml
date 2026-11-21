@@ -15,7 +15,7 @@ docs_dir = "content"
 
 # Custom Theme Setup
 
-# Themes can be used from https://tweakcn.com via tweakcn-adapter.css
+# Themes can be used from tweakcn.com via tweakcn-adapter.css
 extra_css = [
   "css/themes/theme-deep-purple.css",
   "css/tweakcn-adapter.css",
