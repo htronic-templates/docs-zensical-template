@@ -1,3 +1,7 @@
+---
+icon: lucide/file-braces-corner
+---
+
 # API Reference
 
 <link rel="stylesheet" href="/css/api.css">

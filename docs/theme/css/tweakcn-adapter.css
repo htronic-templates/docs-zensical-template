@@ -210,14 +210,13 @@ body[data-md-color-scheme="slate"] .md-header {
    ========================================== */
 
 .md-typeset a:not(.md-button) {
-  color: var(--sidebar-accent-foreground);
+  color: var(--primary);
   text-decoration-color: var(--primary);
 }
 
 .md-typeset a:not(.md-button):hover {
-  color: var(--sidebar-accent-foreground);
+  color: var(--primary);
   text-decoration: underline;
-  text-decoration-color: var(--primary);
 }
 
 /* ==========================================
@@ -284,6 +283,28 @@ body[data-md-color-scheme="slate"] .md-header {
 
 .highlight span.filename {
   margin-top: 0;
+}
+
+/* Code block content */
+.md-typeset .md-code__content {
+  background-color: var(--card);
+  color: var(--card-foreground);
+}
+
+/* Code block toolbar */
+.md-typeset .md-code__nav {
+  color: var(--muted-foreground);
+}
+
+/* Copy and selection buttons */
+.md-typeset .md-code__button {
+  color: var(--muted-foreground);
+  border-radius: calc(var(--radius) * 0.25);
+}
+
+.md-typeset .md-code__button:hover {
+  color: var(--foreground);
+  background-color: var(--muted);
 }
 
 /* ==========================================
