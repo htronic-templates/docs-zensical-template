@@ -49,7 +49,7 @@ toggle.name = "Switch to light mode"
 
 [project.theme]
 # variant = "classic"
-# custom_dir = "overrides"
+custom_dir = "theme"
 # favicon = "images/favicon.png"
 language = "en"
 features = [

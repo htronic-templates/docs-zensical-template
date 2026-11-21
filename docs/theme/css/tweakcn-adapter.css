@@ -282,6 +282,10 @@ body[data-md-color-scheme="slate"] .md-header {
   border-bottom: 1px solid var(--border);
 }
 
+.highlight span.filename {
+  margin-top: 0;
+}
+
 /* ==========================================
    10. Tables
    ========================================== */
