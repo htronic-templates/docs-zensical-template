@@ -1,4 +1,5 @@
 # TODO
 
   * Inline doxygen via iframe
-  * Look at themes from tweakcn
+  * the tweakcn theme adapter needs a little adjustment
+    top bar color / code blocks border
