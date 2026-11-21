@@ -18,6 +18,7 @@ docs_dir = "content"
 extra_css = [
   "css/themes/theme-deep-purple.css",
   "css/tweakcn-adapter.css",
+  "css/custom.css",
 ]
 
 [[project.theme.palette]]
@@ -77,7 +78,7 @@ features = [
   "navigation.tracking",
   "search.highlight",
   "toc.follow",
-  "toc.integrate",
+  # "toc.integrate",
 ]
 
 # logo = "assets/logo.png"
