@@ -110,33 +110,49 @@ body {
   font-family: var(--font-sans);
 }
 
+
 /* ==========================================
-   3. Header
+   3. Header - primary colour
    ========================================== */
 
 .md-header {
-  background-color: var(--sidebar);
-  color: var(--sidebar-foreground);
-  border-bottom: 1px solid var(--sidebar-border);
-  box-shadow: var(--shadow-xs);
+  background: linear-gradient(
+    120deg,
+    oklch(from var(--primary) 0.6 c h) 0%,
+    oklch(from var(--primary) 1 c h) 100%
+  );
 }
 
+body[data-md-color-scheme="slate"] .md-header {
+  background: linear-gradient(
+    120deg,
+    oklch(from var(--primary) 0.10 c h) 0%,
+    oklch(from var(--primary) 0.50 c h) 100%
+  );
+}
+
+/* Title and header controls */
 .md-header__title,
-.md-header__button {
+.md-header__button,
+.md-header__button svg,
+.md-header .md-source {
   color: var(--sidebar-foreground);
 }
 
+/* Header icons on hover */
 .md-header__button:hover {
-  color: var(--sidebar-accent-foreground);
+  color: var(--primary-foreground);
+  background-color:
+    color-mix(in srgb, var(--primary-foreground) 12%, transparent);
+  border-radius: var(--radius);
 }
 
-/*
- * Do not override the palette radio inputs,
- * labels' hidden attribute, or their display
- * and visibility rules.
- *
- * Zensical controls these automatically.
- */
+/* Repository information */
+.md-header .md-source:hover {
+  color: var(--primary-foreground);
+  opacity: 0.85;
+}
+
 
 /* ==========================================
    4. Navigation tabs

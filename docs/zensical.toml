@@ -16,7 +16,7 @@ docs_dir = "content"
 # Custom Theme Setup
 
 extra_css = [
-  "css/themes/theme-shopify-red.css",
+  "css/themes/theme-deep-purple.css",
   "css/tweakcn-adapter.css",
 ]
 
