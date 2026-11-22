@@ -10,7 +10,7 @@
             "options": {
                 "cwd": "${workspaceFolder}",
                 "env": {
-                    "PATH" : "${workspaceFolder}/virtenv/.tox/py/Scripts"
+                    "PATH" : "${workspaceFolder}/.tox/py/Scripts"
                 }
             },
             "problemMatcher": []
@@ -22,7 +22,7 @@
             "options": {
                 "cwd": "${workspaceFolder}",
                 "env": {
-                    "PATH" : "${workspaceFolder}/virtenv/.tox/py/Scripts"
+                    "PATH" : "${workspaceFolder}/.tox/py/Scripts"
                 }
             },
             "problemMatcher": []
