@@ -1,13 +1,13 @@
 [project]
-site_url = "https://www.example.com/"
-site_name = "docs-zensical-template"
+site_url = "https://htronic-templates.github.io/docs-tpl-zensical/"
+site_name = "docs-tpl-zensical"
 site_description = "zensical documentation template"
 site_author = "Hecatronic"
 
 copyright = "Copyright &copy; 2026 Hecatronic"
 
-repo_url = "https://github.com/htronic-templates/docs-zensical-template"
-repo_name = "htronic-templates/docs-zensical-template"
+repo_url = "https://github.com/htronic-templates/docs-tpl-zensical"
+repo_name = "htronic-templates/docs-tpl-zensical"
 edit_uri = "edit/main/docs/"
 
 docs_dir = "content"

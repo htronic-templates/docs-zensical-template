@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "docs-zensical-template", "index.html", ]
+  [ "docs-tpl-zensical", "index.html", ]
 ];
 
 var NAVTREEINDEX =

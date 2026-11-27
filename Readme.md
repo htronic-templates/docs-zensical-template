@@ -7,7 +7,7 @@ This is a successor to mkdocs material
 
 visible at:
 
-  * https://htronic-templates.github.io/docs-zensical-template/
+  * https://htronic-templates.github.io/docs-tpl-zensical/
 
 ## Plugins of Interest
 
